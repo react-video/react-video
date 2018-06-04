@@ -4,5 +4,15 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
+
+
+
+// start 状态树应用到全局 通过Provider
+ReactDOM.render(<Router />
+    , document.getElementById('root')
+);
 registerServiceWorker();
+
